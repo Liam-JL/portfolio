@@ -40,6 +40,8 @@ button, input, textarea, select {
     --color-on-accent-light: #1F3A40;
     --color-on-card-bg: #3B2F2F;
     --color-hero-title: #000000;
+    --color-border-on-secondary-bg: #8C7763;
+    --color-border-on-card: #C1B2A1;
     --font-family-hero: "Micro 5", sans-serif;
     --font-family-standalone: "JetBrains Mono", monospace;
     --font-family-body: "Roboto Mono", monospace;
