@@ -1,0 +1,10 @@
+.header {
+    background-color: var(--color-main-bg);
+    display: flex;
+    min-height: 104px;
+    padding: 16px, 72px;
+}
+
+.block {
+
+}
