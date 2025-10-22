@@ -1,0 +1,43 @@
+@import "modern-normalize";
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: 1rem;
+    margin: 0;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0px;
+}
+
+html, body {
+    height: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+button, input, textarea, select {
+  font: inherit;
+}
+
+:root {
+    font-size: 14px;
+    --color-main-bg: #F2E4D8;
+    --color-secondary-bg: #A69383;
+    --color-accent-dark: #4F7D86;
+    --color-accent-light: #D8EEF2;
+    --color-card-bg: #FFFEFC;
+    --color-on-main-bg: #3B2F2F;
+    --color-on-secondary-bg: #FFFFFF;
+    --color-on-accent-dark: #FFFFFF;
+    --color-on-accent-light: #1F3A40;
+    --color-on-card-bg: #3B2F2F;
+    --color-hero-title: #000000;
+}
