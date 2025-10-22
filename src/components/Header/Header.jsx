@@ -1,18 +1,24 @@
 import styles from './Header.module.css';
+import Logo from '../Logo/Logo';
 
 
 function Header() {
     return (
         <header className={styles.header}>
-            <div className={`${styles.block}, ${styles.logoBlock}`}>
+            <div className={`${styles.block}`}>
+                <Logo />
+            </div>
+
+            <div className={`${styles.block}`}>
                 
             </div>
-            <div className={`${styles.block}, ${styles.navBlock}`}>
-
+            
+            <div className={`${styles.block}`}>
+                
             </div>
-            <div className={`${styles.block}, ${styles.ctaBlock}`}>
 
-            </div>
+
+
         </header>
     )
 }
