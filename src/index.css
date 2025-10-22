@@ -1,7 +1,6 @@
 @import "modern-normalize";
 
 h1, h2, h3, h4, h5, h6, p {
-    font-size: 1rem;
     margin: 0;
 }
 
@@ -28,16 +27,22 @@ button, input, textarea, select {
 }
 
 :root {
-    font-size: 14px;
     --color-main-bg: #F2E4D8;
     --color-secondary-bg: #A69383;
     --color-accent-dark: #4F7D86;
     --color-accent-light: #D8EEF2;
     --color-card-bg: #FFFEFC;
     --color-on-main-bg: #3B2F2F;
+    --color-accent-dark-hover: #3e6b75;
+    --color-accent-light-hover: #cfe9ed;
     --color-on-secondary-bg: #FFFFFF;
     --color-on-accent-dark: #FFFFFF;
     --color-on-accent-light: #1F3A40;
     --color-on-card-bg: #3B2F2F;
     --color-hero-title: #000000;
+    --color-border-on-secondary-bg: #8C7763;
+    --color-border-on-card: #C1B2A1;
+    --font-family-hero: "Micro 5", sans-serif;
+    --font-family-standalone: "JetBrains Mono", monospace;
+    --font-family-body: "Roboto Mono", monospace;
 }
