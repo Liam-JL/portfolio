@@ -12,3 +12,26 @@
     align-items: center;
     flex: 1;
 }
+
+.logoBlock {
+    justify-content: flex-start;
+}
+
+.navBlock {
+    display: none;
+}
+
+.ctaBlock {
+    justify-content: flex-end;
+}
+
+.openSideMenuBlock {
+    display: none;
+    justify-content: flex-end;
+}
+
+.menuIcon {
+    height:48px;
+    width: auto;
+    color: var(--color-accent-dark)
+}
