@@ -1,0 +1,40 @@
+.hero {
+    background-color: var(--color-main-bg);
+    min-height: 250px;
+    display: flex;
+    padding: 0px 72px;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
+
+.nameHeading {
+    color: var(--color-hero-title);
+    font-family: var(--font-family-hero);
+    font-size: 8rem;
+    font-weight: 300;
+    line-height: 6.5rem;
+}
+
+.title {
+    color: var(--color-on-main-bg);
+    font-family: var(--font-family-standalone);
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 3.5rem;
+}
+
+.profileLinksContainer {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    padding: 1rem 0px;
+}
+
+.buttonIcon {
+    font-size: 3rem;
+}
