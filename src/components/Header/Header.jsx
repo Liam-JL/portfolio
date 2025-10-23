@@ -19,7 +19,7 @@ function Header() {
                 <Button variant='primary' size='lg'><p>Email Me</p></Button>
             </div>
 
-            <div className={`${styles.block} ${styles.openSideMenuBlock}`}>
+            <div className={`${styles.block} ${styles.menuBlock}`}>
                 <MdMenuOpen  className={styles.menuIcon}/>
             </div>
         </header>
