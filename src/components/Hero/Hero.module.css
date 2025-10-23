@@ -38,3 +38,15 @@
 .buttonIcon {
     font-size: 3rem;
 }
+
+.imageBlock {
+    position: relative;
+}
+
+.heroImage {
+    width: 421px;
+    height: auto;
+    position: absolute;
+    top: 2rem;
+    right: 4rem;
+}
