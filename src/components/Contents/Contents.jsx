@@ -1,4 +1,7 @@
 import styles from './Contents.module.css';
+import StackTile from '../StackTile/StackTile';
+import stackData from '../../data/stack.json'
+import projectData from '../../data/projects.json'
 
 function Contents() {
   
@@ -8,7 +11,11 @@ function Contents() {
         <section className={`${styles.block} ${styles.stackBlock}`}>
           <h3 className={`${styles.blockHeader} ${styles.stackHeader}`}>Stack</h3>
           <ul className={styles.stackList}>
-
+            {stackData.stack.map((tech, index) => (
+              <li key={index}>
+                <StackTile name={tech.name} image={tech.image} />
+              </li>
+            ))}
           </ul>
         </section>
         <section className={`${styles.block} ${styles.projectsBlock}`}>

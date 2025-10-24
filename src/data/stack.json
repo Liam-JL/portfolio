@@ -2,27 +2,31 @@
   "stack": [
     {
       "name": "HTML5",
-      "image": "/images/html5.png"
+      "image": "/images/html5.svg"
     },
     {
-      "name": "CSS3 + CSS Modules",
-      "image": "/images/css3.png"
+      "name": "CSS3",
+      "image": "/images/css3.svg"
     },
     {
       "name": "JavaScript (ES6+)",
-      "image": "/images/javascript.png"
+      "image": "/images/javascript.svg"
     },
     {
       "name": "React",
-      "image": "/images/react.png"
+      "image": "/images/react.svg"
+    },
+    {
+      "name": "CSS Modules",
+      "image": "/images/cssmodules.svg"
     },
     {
       "name": "Vite",
-      "image": "/images/vite.png"
+      "image": "/images/vite.svg"
     },
     {
       "name": "Figma",
-      "image": "/images/figma.png"
+      "image": "/images/figma.svg"
     }
   ]
 }
