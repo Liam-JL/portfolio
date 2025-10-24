@@ -1,0 +1,28 @@
+{
+  "stack": [
+    {
+      "name": "HTML5",
+      "image": "/images/html5.png"
+    },
+    {
+      "name": "CSS3 + CSS Modules",
+      "image": "/images/css3.png"
+    },
+    {
+      "name": "JavaScript (ES6+)",
+      "image": "/images/javascript.png"
+    },
+    {
+      "name": "React",
+      "image": "/images/react.png"
+    },
+    {
+      "name": "Vite",
+      "image": "/images/vite.png"
+    },
+    {
+      "name": "Figma",
+      "image": "/images/figma.png"
+    }
+  ]
+}
