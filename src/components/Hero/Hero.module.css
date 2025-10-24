@@ -1,6 +1,5 @@
 .hero {
     background-color: var(--color-main-bg);
-    min-height: 250px;
     display: flex;
     padding: 0px 72px;
 }
