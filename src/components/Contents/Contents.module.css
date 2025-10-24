@@ -1,0 +1,31 @@
+.contentContainer {
+    display: flex;
+    background-color: var(--color-main-bg);
+    flex: 1 0 auto;
+    padding: 2rem;
+}
+
+.content {
+    flex: 1;
+    background-color: var(--color-secondary-bg);
+    color: var(--color-on-secondary-bg);
+    display: flex;
+    flex-direction: column;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.projectsBlock {
+    flex: 1 0 auto;
+}
+
+.blockHeader {
+    font-family: var(--font-family-standalone);
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+

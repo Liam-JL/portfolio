@@ -9,8 +9,8 @@ ul, ol {
     padding: 0px;
 }
 
-html, body {
-    height: 100%;
+html, body, #root  {
+  height: 100%;
 }
 
 *, *::before, *::after {
@@ -45,4 +45,11 @@ button, input, textarea, select {
     --font-family-hero: "Micro 5", sans-serif;
     --font-family-standalone: "JetBrains Mono", monospace;
     --font-family-body: "Roboto Mono", monospace;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: var(--color-main-bg);
 }

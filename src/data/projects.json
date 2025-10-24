@@ -1,0 +1,32 @@
+{
+  "projects": [
+    {
+      "title": "Portfolio Website",
+      "screenshot": "/images/project-portfolio.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin aliquet magna nec turpis dictum, in suscipit lacus blandit.",
+      "github": "https://github.com/username/portfolio-website",
+      "live": "https://username.github.io/portfolio-website/"
+    },
+    {
+      "title": "Task Tracker App",
+      "screenshot": "/images/project-tasktracker.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget justo id sapien vehicula vulputate sit amet id metus.",
+      "github": "https://github.com/username/task-tracker",
+      "live": "https://username.github.io/task-tracker/"
+    },
+    {
+      "title": "Weather Dashboard",
+      "screenshot": "/images/project-weather.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada purus sit amet risus commodo, in dignissim nunc ultricies.",
+      "github": "https://github.com/username/weather-dashboard",
+      "live": "https://username.github.io/weather-dashboard/"
+    },
+    {
+      "title": "E-commerce Product Page",
+      "screenshot": "/images/project-ecommerce.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt velit non lacus interdum, a gravida nunc vehicula.",
+      "github": "https://github.com/username/ecommerce-page",
+      "live": "https://username.github.io/ecommerce-page/"
+    }
+  ]
+}
