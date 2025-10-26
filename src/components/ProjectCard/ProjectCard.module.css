@@ -1,0 +1,58 @@
+.card {
+    background-color: var(--color-card-bg);
+    color: var( --color-on-card-bg);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardHeader {
+    position: relative;
+    height: 5rem;
+    display: flex;
+    align-items: flex-end;
+    padding: 0.5rem;
+    z-index: 1;
+}
+
+.cardHeader::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    background-image: var(--bg-url);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+}
+
+.title {
+    font-family: var(--font-family-standalone);
+    font-weight: 600;
+    font-size: 1.2rem;
+    position: relative;
+    z-index: 1;
+    color: var(--color-hero-title);
+}
+
+.contents {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+
+.description {
+    flex: 1 0 auto;
+    padding: 0.5rem;
+}
+
+.buttonLinks {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.5rem;
+    padding: 0.5rem;
+}
+
+
+
+
