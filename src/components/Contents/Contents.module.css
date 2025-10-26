@@ -36,12 +36,16 @@
 }
 
 .projectsBlock {
-    flex: 1 0 auto;
+   flex: 1 0 auto;
 }
 
 .projectsList {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    height: 100%;
     gap: 1rem;
+    flex: 1 0 auto;
+}
+
+.cardContainer {
+    height: 100%;
 }
