@@ -12,7 +12,7 @@ function Contents() {
           <h3 className={`${styles.blockHeader} ${styles.stackHeader}`}>Stack</h3>
           <ul className={styles.stackList}>
             {stackData.stack.map((tech, index) => (
-              <li key={index}>
+              <li key={index} className={styles.tileContainer}>
                 <StackTile name={tech.name} image={tech.image} />
               </li>
             ))}

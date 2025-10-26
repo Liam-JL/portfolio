@@ -2,7 +2,7 @@
     display: flex;
     background-color: var(--color-main-bg);
     flex: 1 0 auto;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .content {
@@ -17,11 +17,9 @@
     display: flex;
     flex-direction: column;
     padding: 1rem;
+    gap: 1.5rem;
 }
 
-.projectsBlock {
-    flex: 1 0 auto;
-}
 
 .blockHeader {
     font-family: var(--font-family-standalone);
@@ -33,3 +31,17 @@
     display: flex;
 }
 
+.tileContainer {
+    height: 100%;
+}
+
+.projectsBlock {
+    flex: 1 0 auto;
+}
+
+.projectsList {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 100%;
+    gap: 1rem;
+}
