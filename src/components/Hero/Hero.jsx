@@ -20,7 +20,9 @@ function Hero() {
         </span>
       </div>
       <div className={`${styles.block} ${styles.imageBlock}`}>
-        <img src={placeholderImage} alt="" className={styles.heroImage}/>
+        <div className={styles.imageContainer}>
+          <img src={placeholderImage} alt="" className={styles.heroImage}/>
+        </div>
       </div>
     </section>
   )
