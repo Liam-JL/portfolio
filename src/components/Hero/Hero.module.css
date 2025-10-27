@@ -50,7 +50,8 @@
     width: clamp(14rem, -2.6667rem + 29.6296vw, 24rem);
     aspect-ratio: 1 / 1;
     position: absolute;
-    top: 5rem;
+    top: 3rem;
+    right: clamp(5rem, -17.7273rem + 36.3636vw, 15rem);
 }
 
 .heroImage {
@@ -59,4 +60,3 @@
     object-fit: contain;
     image-rendering: pixelated;
 }
-
