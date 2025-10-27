@@ -9,11 +9,10 @@
 .container {
     display: flex;
     justify-content: center;
-
 }
 
 .imageContainer {
-    height: 3rem;
+    height: clamp(2.5rem, 2.3239rem + 0.7512vw, 3rem);
 }
 
 .image {
