@@ -5,6 +5,7 @@
     justify-content: center;
     align-items: center;
     padding: 1rem clamp(1rem, -0.2324rem + 5.2582vw, 4.5rem);
+    padding-bottom: 0;
 }
 
 .block {
