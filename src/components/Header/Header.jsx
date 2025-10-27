@@ -16,9 +16,10 @@ function Header() {
             </div>
             
             <div className={`${styles.block} ${styles.ctaBlock}`}>
-                <Button variant='primary' size='lg'><p>Email Me</p></Button>
+                <a href="mailto:liam.lirson@gmail.com">
+                    <Button variant='primary' size='lg'><p>Email Me</p></Button>
+                </a>
             </div>
-
             <div className={`${styles.block} ${styles.menuBlock}`}>
                 <MdMenuOpen  className={styles.menuIcon}/>
             </div>
