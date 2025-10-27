@@ -12,10 +12,10 @@ function Hero() {
         <h2 className={styles.title}>Junior Web Developer</h2>
         <span className={styles.profileLinksContainer}>
           <Button variant='primary' size='square'>
-            <FaGithub  className={styles.buttonIcon}/>
+            <FaGithub />
           </Button>
           <Button variant='primary' size='square'>
-            <FaLinkedinIn className={styles.buttonIcon}/>
+            <FaLinkedinIn />
           </Button>
         </span>
       </div>

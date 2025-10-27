@@ -1,51 +1,51 @@
 .hero {
-    background-color: var(--color-main-bg);
     display: flex;
-    padding: 0px 72px;
+    flex: 1 1 auto;
+    background-color: var(--color-main-bg);
+    padding: 0px clamp(1rem, -0.2324rem + 5.2582vw, 4.5rem);
+}
+
+.nameHeading {
+    color: var(--color-hero-title);
+    font-family: var(--font-family-hero);
+    font-size: var(--fs-name-heading);
+    font-weight: 300;
+    line-height: 1;
+}
+
+.title {
+    color: var(--color-on-main-bg);
+    font-family: var(--font-family-standalone);
+    font-size: var(--fs-title);
+    font-weight: 600;
+    line-height: 1;
+}
+
+.profileLinksContainer {
+    display: flex;
+    align-items: center;
+    gap: clamp(1.5rem, 1.1479rem + 1.5023vw, 2.5rem);
+    padding: 1rem 0px;
 }
 
 .block {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    flex: 1;
 }
 
-.nameHeading {
-    color: var(--color-hero-title);
-    font-family: var(--font-family-hero);
-    font-size: 8rem;
-    font-weight: 300;
-    line-height: 6.5rem;
-}
-
-.title {
-    color: var(--color-on-main-bg);
-    font-family: var(--font-family-standalone);
-    font-size: 2.5rem;
-    font-weight: 600;
-    line-height: 3.5rem;
-}
-
-.profileLinksContainer {
-    display: flex;
-    align-items: center;
-    gap: 2.5rem;
-    padding: 1rem 0px;
-}
-
-.buttonIcon {
-    font-size: 3rem;
+.contentsBlock {
+    flex: 2 0 auto;
 }
 
 .imageBlock {
-    position: relative;
+    flex: 1;
 }
 
 .heroImage {
-    width: 421px;
-    height: auto;
-    position: absolute;
-    top: 2rem;
-    right: 4rem;
+    height: 12rem;
+    width: 12rem;
+    position: relative;
+    top: 5rem;
 }
+

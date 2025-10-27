@@ -3,9 +3,7 @@ import placeholder from '../../assets/placeholder-logo.svg'
 
 function Logo() {
     return (
-        <div className={styles.logoContainer}>
-            <img src={placeholder} alt="Logo" className={styles.logo} />
-        </div>
+        <img src={placeholder} alt="Logo" className={styles.logo} />
     )
 }
 
