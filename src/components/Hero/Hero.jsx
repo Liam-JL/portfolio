@@ -1,7 +1,7 @@
 import styles from './Hero.module.css';
 import Button from '../Button/Button';
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
-import placeholderImage from '../../assets/placeholder.png';
+
 
 function Hero() {
   
@@ -25,7 +25,7 @@ function Hero() {
       </div>
       <div className={`${styles.block} ${styles.imageBlock}`}>
         <div className={styles.imageContainer}>
-          <img src={placeholderImage} alt="" className={styles.heroImage}/>
+          <img src="images/heroplaceholder.png" alt="" className={styles.heroImage}/>
         </div>
       </div>
     </section>

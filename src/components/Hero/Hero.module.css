@@ -69,7 +69,7 @@
 
   .imageContainer {
     position: relative;
-    width: clamp(12rem, 9.1698rem + 7.5472vw, 14rem);
+    width: clamp(11rem, 6.7547rem + 11.3208vw, 14rem);
     right: 0;
     top: clamp(0rem, -4.2453rem + 11.3208vw, 3rem);
   }
