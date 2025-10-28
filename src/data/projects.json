@@ -1,32 +1,32 @@
 {
   "projects": [
     {
-      "title": "Portfolio Website",
-      "screenshot": "placeholder-screenshot.jpg",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin aliquet magna nec turpis dictum, in suscipit lacus blandit.",
-      "github": "https://github.com/username/portfolio-website",
-      "live": "https://username.github.io/portfolio-website/"
+      "title": "E-Commerce App (React)",
+      "screenshot": "electronix-ss.png",
+      "description": "A front-end electronics store built with React. Portfolio project based on the “Shopping Cart” assignment from The Odin Project.",
+      "github": "https://github.com/Liam-JL/electronix-storefront",
+      "live": "https://electronix-shop.netlify.app/"
     },
     {
-      "title": "Task Tracker App",
-      "screenshot": "placeholder-screenshot.jpg",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget justo id sapien vehicula vulputate sit amet id metus.",
-      "github": "https://github.com/username/task-tracker",
-      "live": "https://username.github.io/task-tracker/"
+      "title": "Odin Todo",
+      "screenshot": "odintodo-ss.png",
+      "description": "A functional Todo List application built as part of The Odin Project curriculum.",
+      "github": "https://github.com/Liam-JL/odin-todo",
+      "live": "https://liam-jl.github.io/odin-todo/"
     },
     {
-      "title": "Weather Dashboard",
-      "screenshot": "placeholder-screenshot.jpg",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada purus sit amet risus commodo, in dignissim nunc ultricies.",
-      "github": "https://github.com/username/weather-dashboard",
-      "live": "https://username.github.io/weather-dashboard/"
+      "title": "Odin Weather",
+      "screenshot": "odinweather-ss.png",
+      "description": "A simple JavaScript weather application that fetches real-time weather data for any city using the Visual Crossing weather API (https://www.visualcrossing.com/weather-api/).",
+      "github": "https://github.com/Liam-JL/odin-weather",
+      "live": "https://liam-jl.github.io/odin-weather/"
     },
     {
-      "title": "E-commerce Product Page",
-      "screenshot": "placeholder-screenshot.jpg",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt velit non lacus interdum, a gravida nunc vehicula.",
-      "github": "https://github.com/username/ecommerce-page",
-      "live": "https://username.github.io/ecommerce-page/"
+      "title": "Memory Card Game",
+      "screenshot": "memory-ss.png",
+      "description": "A Pokémon-themed memory card game built with React. Test your memory by selecting each Pokémon only once.",
+      "github": "https://github.com/Liam-JL/memory-card",
+      "live": "https://ljp-pokemon-memory-game.netlify.app/"
     }
   ]
 }
