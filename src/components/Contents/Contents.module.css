@@ -31,10 +31,6 @@
     display: flex;
 }
 
-.tileContainer {
-    height: 100%;
-}
-
 .projectsBlock {
    flex: 1 0 auto;
 }
@@ -43,9 +39,21 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
+    flex: 1;
 }
 
 .cardContainer {
     height: 100%;
     max-height: 20rem;
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+  .stackList {
+    flex-wrap: wrap;
+  }
+
+  .projectsList {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
 }
