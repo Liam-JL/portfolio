@@ -11,16 +11,22 @@ function Hero() {
         <h1 className={styles.nameHeading}>Liam Lirson</h1>
         <h2 className={styles.title}>Junior Web Developer</h2>
         <span className={styles.profileLinksContainer}>
-          <Button variant='primary' size='square'>
-            <FaGithub />
-          </Button>
-          <Button variant='primary' size='square'>
-            <FaLinkedinIn />
-          </Button>
+          <a href="https://github.com/Liam-JL" target="_blank" rel="noopener noreferrer">
+            <Button variant='primary' size='square'>
+              <FaGithub />
+            </Button>
+          </a>
+          <a href="https://www.linkedin.com/in/liam-lirson" target="_blank" rel="noopener noreferrer">
+            <Button variant='primary' size='square'>
+              <FaLinkedinIn />
+            </Button>
+          </a>
         </span>
       </div>
       <div className={`${styles.block} ${styles.imageBlock}`}>
-        <img src={placeholderImage} alt="" className={styles.heroImage}/>
+        <div className={styles.imageContainer}>
+          <img src={placeholderImage} alt="" className={styles.heroImage}/>
+        </div>
       </div>
     </section>
   )
