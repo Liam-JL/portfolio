@@ -29,6 +29,7 @@
 
 .stackList {
     display: flex;
+    gap: 0.5rem;
 }
 
 .projectsBlock {
@@ -47,6 +48,8 @@
     max-height: 20rem;
 }
 
+
+/* Tablet View */
 @media (min-width: 600px) and (max-width: 1024px) {
   .stackList {
     flex-wrap: wrap;
@@ -55,5 +58,23 @@
   .projectsList {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+  }
+}
+
+/* Mobile View */
+@media (max-width: 600px) {
+    .stackList {
+    flex-wrap: wrap;
+    gap: 0.2rem;
+    justify-content: center;
+  }
+
+  .tileContainer  {
+    gap: 0.5rem;
+    padding: 0.5rem;
+  }
+
+    .projectsList {
+    grid-template-columns: 1fr;
   }
 }

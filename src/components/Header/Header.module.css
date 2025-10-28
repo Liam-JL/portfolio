@@ -36,3 +36,10 @@
     width: var(--btn-lg-min-height);
     color: var(--color-accent-dark)
 }
+
+/* Mobile View */
+@media (max-width: 600px) { 
+    .header {
+        padding-bottom: 1rem;
+    }
+}

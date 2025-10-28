@@ -25,7 +25,10 @@ function Hero() {
       </div>
       <div className={`${styles.block} ${styles.imageBlock}`}>
         <div className={styles.imageContainer}>
-          <img src="images/heroplaceholder.png" alt="" className={styles.heroImage}/>
+          <picture>
+            <source media="(max-width: 600px)" srcSet='/images/heroplaceholdermobile.png'/>
+            <img src="images/heroplaceholder.png" alt="Hero Image" className={styles.heroImage}/>
+          </picture>
         </div>
       </div>
     </section>
