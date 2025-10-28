@@ -17,7 +17,7 @@
     {
       "title": "Odin Weather",
       "screenshot": "odinweather-ss.png",
-      "description": "A simple JavaScript weather application that fetches real-time weather data for any city using the Visual Crossing weather API (https://www.visualcrossing.com/weather-api/).",
+      "description": "A simple JavaScript weather application that fetches real-time weather data for any city using the Visual Crossing weather API.",
       "github": "https://github.com/Liam-JL/odin-weather",
       "live": "https://liam-jl.github.io/odin-weather/"
     },
