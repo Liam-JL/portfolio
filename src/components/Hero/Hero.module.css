@@ -60,3 +60,18 @@
     object-fit: contain;
     image-rendering: pixelated;
 }
+
+/* Tablet View */
+@media (min-width: 600px) and (max-width: 1024px) {
+    .imageBlock {
+      align-items: flex-start;
+    }
+
+  .imageContainer {
+    position: relative;
+    width: clamp(12rem, 9.1698rem + 7.5472vw, 14rem);
+    right: 0;
+    top: clamp(0rem, -4.2453rem + 11.3208vw, 3rem);
+  }
+
+}
